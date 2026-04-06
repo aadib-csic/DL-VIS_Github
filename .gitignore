@@ -1,0 +1,34 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Model checkpoints (large files)
+checkpoints/
+*.pth
+*.pt
+
+# Results and visualizations (generated folders)
+results/
+visualizations/
+raw_predictions/
+comparison_images/
+overlay_comparisons/
+numpy_results/
+demo_results/
+
+# Data (large folder)
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# BUT keep docs folder with images
+!docs/
+!docs/images/
